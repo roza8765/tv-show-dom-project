@@ -1,3 +1,20 @@
 #root {
-  color: red;
+  color:black;
+}
+
+.cardZoom:hover img{
+transform: scale(1.1 , 1.1);
+transition-duration: 500;
+transition-timing-function: ease-out;
+opacity: 0.8;
+}
+.cardZoom img{
+transform: scale(1 , 1);
+transition-duration: 500;
+transition-timing-function: ease-out;
+
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
 }
